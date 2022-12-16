@@ -7,6 +7,7 @@ import { AdminComponent } from './admin/admin.component';
 import { BannerComponent } from './banner/banner.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
+import { AdminRoutingModule } from './admin/admin-routing.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LoginComponent } from './login/login.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AdminRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
